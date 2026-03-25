@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* 表頭 */
+th {
+  padding: 12px;
+  text-align: left;
+  color: white;
+  background: linear-gradient(to right, #0aa06e, #19b37a);
+}
+
+/* 儲存格 */
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* 斑馬紋 */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* 滑鼠效果 */
+tr:hover {
+  background-color: #ddd;
+}
+</style>
+</head>
+
+<body>
+
+<table>
+  <tr>
+    <th>開課單位</th>
+    <th>課程名稱</th>
+    <th>授課教師</th>
+  </tr>
+  <tr>
+    <td>資工系</td>
+    <td>物件導向軟體設計</td>
+    <td>黃宗源</td>
+  </tr>
+  <tr>
+    <td>資工系</td>
+    <td>計算機網路實驗</td>
+    <td>李春良</td>
+  </tr>
+  <tr>
+    <td>資工系</td>
+    <td>作業系統實務</td>
+    <td>張哲維</td>
+  </tr>
+  <tr>
+    <td>資工系</td>
+    <td>生物統計</td>
+    <td>陳光武</td>
+  </tr>
+  <tr>
+    <td>資工系</td>
+    <td>通訊系統</td>
+    <td>陳仁暉</td>
+  </tr>
+  <tr>
+    <td>資工系</td>
+    <td>軟硬體專題(2)</td>
+    <td>魏志達</td>
+  </tr>
+</table>
+
+</body>
+</html>
