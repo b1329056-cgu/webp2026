@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>楊凱祺 | 個人網站</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- 自訂 CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">我的網站</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">關於我</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">技能</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">聯絡我</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首頁主視覺 -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="row align-items-center gy-5">
+
+                <!-- 左邊照片 -->
+                <div class="col-lg-5 text-center">
+                    <img src="images/profile.jpg" alt="楊凱祺個人照片" class="profile-img">
+                </div>
+
+                <!-- 右邊介紹 -->
+                <div class="col-lg-7 text-center text-lg-start">
+                    <h1 class="hero-name">楊凱祺</h1>
+                    <h2 class="hero-title">Chang Gung University Student</h2>
+
+                    <div class="hero-info">
+                        <p>Department of CSIE</p>
+                        <p>College of Engineering</p>
+                        <p>Chang Gung University</p>
+                    </div>
+
+                    <p class="hero-desc">
+                        長庚大學資訊工程學系學生，正在學習網頁設計、程式開發、前端版面設計與資料庫。
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-warning btn-lg me-2 mb-2">關於我</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg mb-2">聯絡方式</a>
+                    </div>
+
+                    <div class="hero-quote">
+                        <p><em>Rose are red,Violets are blue, Unexpected '{' on line 32.</em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 關於我 -->
+    <section id="about" class="section-light py-5">
+        <div class="container">
+            <h2 class="section-title">關於我</h2>
+            <p>
+                目前就讀長庚大學資訊工程學系。
+                在學習過程中，我接觸了 HTML、CSS、Bootstrap、Python 與 Django，
+                並逐步建立對網頁設計與程式開發的基礎理解。
+            </p>
+            <p>
+                我對前端介面設計、網站排版與網頁實作有濃厚興趣，
+                希望未來能持續提升自己的開發能力，做出兼具功能性與使用體驗的作品。
+            </p>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="section-gray py-5">
+        <div class="container">
+            <h2 class="section-title">技能</h2>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card custom-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML</h5>
+                            <p class="card-text">
+                                能建立網頁的基本結構，包含標題、段落、圖片、連結與區塊配置。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card custom-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS / Bootstrap</h5>
+                            <p class="card-text">
+                                能使用 Bootstrap 快速完成版面設計，並製作支援電腦、平板與手機的 RWD 網頁。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card custom-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Python / Django</h5>
+                            <p class="card-text">
+                                具備 Python 基礎，並學習過 Django 的網站開發流程、模板觀念與基本架構。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 聯絡方式 -->
+    <section id="contact" class="section-light py-5">
+        <div class="container">
+            <h2 class="section-title">聯絡我</h2>
+            <div class="contact-box">
+                <p><strong>Email：</strong><a href="mailto:pengsam15@gmail.com">k0903591448@gmail.com</a></p>
+                <p><strong>GitHub：</strong><a href="https://github.com/Smaxoi" target="_blank">我的 GitHub</a></p>
+                <p><strong>身份：</strong>長庚大學資工系學生</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer class="footer-section text-center py-3">
+        <div class="container">
+            <p class="mb-1">© 2026 楊凱祺 Personal Website</p>
+            <p class="mb-0">Built with Bootstrap 5</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
